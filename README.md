@@ -3,12 +3,12 @@ I downlaoded the files manually and saved in: `~/Documents/PLUS_softwaredev_2025
 <img width="1035" alt="files-download" src="https://github.com/user-attachments/assets/8592bd9d-e55d-4c5a-99d7-d964e9059b71" />
 
 # Creating Environment from v1 File
-I used the command: `conda env create -f software_dev_v1.yml` and got errors.
+I used the command: `conda env create -f software_dev_v1.yml` and got errors. Since the environment is a  Windows operating system-dependent, it couldn't be executed on Mac OS.
 <img width="1037" alt="error" src="https://github.com/user-attachments/assets/c47cc7b2-23c9-4095-a339-7fe76d197817" />
 
 
 # Creating Environment from v2 File
-I used the command: `conda env create -f software_dev_v2.yml.` I didn't get any error, and the packages were installed successfully.
+I used the command: `conda env create -f software_dev_v2.yml.` I didn't get any error, apparently the environment is a generic one, so worked for Mac! The packages were installed successfully.
 <img width="1038" alt="env 2" src="https://github.com/user-attachments/assets/26eb9e7f-cfef-4653-aa85-04ca33b0504a" />
 
 
